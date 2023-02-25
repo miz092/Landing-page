@@ -1,0 +1,138 @@
+.taskTiger__header {
+  display: flex;
+}
+
+.taskTiger__header-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-right: 5rem;
+}
+.taskTiger__header-content h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+}
+.taskTiger__header-content p {
+  font-family: var(--font-family);
+  font-size: 20px;
+  line-height: 27px;
+  color: var(--color-text);
+  margin-top: 1.5rem;
+}
+.taskTiger__header-content__input {
+  width: 100%;
+  margin: 2rem 0 1rem;
+  display: flex;
+}
+.taskTiger__header-content__input input {
+  flex: 2;
+  width: 100%;
+  min-height: 50px;
+  font-family: var(--font-family);
+  background: var(--color-footer);
+
+  font-size: 20px;
+  line-height: 27px;
+  color: #3d6184;
+  border: 2px solid var(--color-footer);
+  padding: 0 1rem;
+  outline: none;
+  color: #fff;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.taskTiger__header-content__input button {
+  flex: 0.6;
+  width: 100%;
+  min-height: 50px;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background: #ff4820;
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.taskTiger__header-content__people {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 2rem;
+}
+.taskTiger__header-content__people img {
+  width: 181px;
+  height: 38px;
+}
+.taskTiger__header-content__people p {
+  margin: 0 0 0 1rem;
+  font-family: var(--font-family);
+  font-weight: 500;
+  color: #fff;
+  font-size: 12px;
+  line-height: 38px;
+  text-align: center;
+}
+.taskTiger__header-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.taskTiger__header-image img {
+  width: 120%;
+}
+@media screen and (max-width: 1500px) {
+  .taskTiger__header {
+    flex-direction: column;
+  }
+  .taskTiger__header-content {
+    margin: 0 0 0 3rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .taskTiger__header h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .taskTiger__header p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .taskTiger__header-content__people {
+    flex-direction: column;
+  }
+  .taskTiger__header-content__people p {
+    margin: 0;
+  }
+  .taskTiger__header-content__input input,
+  .taskTiger__header-content__input button {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 490px) {
+  .taskTiger__header h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .taskTiger__header p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .taskTiger__header-content__input input,
+  .taskTiger__header-content__input button {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
