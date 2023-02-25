@@ -23,7 +23,7 @@ const featureReviews = [
 
 function Features() {
   return (
-    <div className="taskTiger__features section__padding">
+    <div className="taskTiger__features section__padding" id="features">
       <div className="taskTiger__features-heading">
         <h1 className="gradient__text">
           Step into the future with TaskTiger today and easily connect with

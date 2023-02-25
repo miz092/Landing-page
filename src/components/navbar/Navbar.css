@@ -14,7 +14,7 @@
   margin-right: 2rem;
 }
 .taskTiger__navbar-links_logo img {
-  max-height: 30px;
+  max-height: 50px;
   /* max-width: 62.5px; */
 }
 .taskTiger__navbar-links_container {
@@ -42,7 +42,7 @@
 .taskTiger__navbar-menu_container button {
   padding: 0.5rem 1rem;
   color: #fff;
-  background: #ff4820;
+  background: #e29578;
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 18px;

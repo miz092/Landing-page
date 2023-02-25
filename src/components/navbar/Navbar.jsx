@@ -20,7 +20,7 @@ function Navbar() {
         <a href="#features">Features</a>
       </p>
       <p>
-        <a href="#blog">Updates</a>
+        <a href="#contact">Contact</a>
       </p>
     </>
   );

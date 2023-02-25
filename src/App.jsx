@@ -1,5 +1,5 @@
-import { Article, Brand, CTA, Navbar } from "./components";
-import { Footer, Blog, Future, Header, WhatIs, Features } from "./containers";
+import { Brand, CTA, Navbar } from "./components";
+import { Footer, Future, Header, WhatIs, Features } from "./containers";
 import "./App.css";
 
 function App() {
@@ -14,7 +14,6 @@ function App() {
       <Features />
       <Future />
       <CTA />
-      <Blog />
       <Footer />
     </div>
   );

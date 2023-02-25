@@ -12,9 +12,7 @@ function WhatIs() {
         />
       </div>
       <div className="taskTiger__whatis-heading">
-        <h1 className="gradient__text">
-          The possibilities are beyond your imagination
-        </h1>
+        <h1>The possibilities are beyond your imagination</h1>
       </div>
       <div className="taskTiger__whatis-container">
         <Feature

@@ -7,7 +7,42 @@
   padding: 2rem;
   margin: 4rem;
   border-radius: 1rem;
-  background: var(--gradient-bar);
+  background: -moz-linear-gradient(
+    268deg,
+    rgba(255, 221, 210, 1) 0%,
+    rgba(226, 149, 120, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    268deg,
+    rgba(255, 221, 210, 1) 0%,
+    rgba(226, 149, 120, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    268deg,
+    rgba(255, 221, 210, 1) 0%,
+    rgba(226, 149, 120, 1) 100%
+  );
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFDDD2', endColorstr='#E29578', GradientType=0 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    268deg,
+    rgba(255, 221, 210, 1) 0%,
+    rgba(226, 149, 120, 1) 100%
+  );
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    268deg,
+    rgba(255, 221, 210, 1) 0%,
+    rgba(226, 149, 120, 1) 100%
+  );
 }
 
 .taskTiger__cta-content {
@@ -41,7 +76,7 @@
 }
 
 .taskTiger__cta-btn button {
-  background: #000;
+  background: rgb(226, 149, 120);
   color: #fff;
   font-family: var(--font-family);
   font-weight: 700;

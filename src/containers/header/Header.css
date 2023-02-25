@@ -34,17 +34,14 @@
   width: 100%;
   min-height: 50px;
   font-family: var(--font-family);
-  background: var(--color-footer);
+  background: var(--gradient-text);
 
   font-size: 20px;
   line-height: 27px;
-  color: #3d6184;
-  border: 2px solid var(--color-footer);
+  color: #ffffff;
+  border: 0px solid var(--color-footer);
   padding: 0 1rem;
   outline: none;
-  color: #fff;
-  border-bottom-right-radius: 5px;
-  border-top-right-radius: 5px;
 }
 .taskTiger__header-content__input button {
   flex: 0.6;
@@ -52,7 +49,7 @@
   min-height: 50px;
   padding: 0.5rem 1rem;
   color: #fff;
-  background: #ff4820;
+  background: #e29578;
   font-family: var(--font-family);
   font-weight: bold;
   font-size: 20px;
@@ -71,15 +68,14 @@
   margin-top: 2rem;
 }
 .taskTiger__header-content__people img {
-  width: 181px;
-  height: 38px;
+  height: 50px;
 }
 .taskTiger__header-content__people p {
   margin: 0 0 0 1rem;
   font-family: var(--font-family);
   font-weight: 500;
   color: #fff;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 38px;
   text-align: center;
 }

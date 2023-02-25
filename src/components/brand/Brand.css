@@ -1,17 +1,56 @@
 .taskTiger__brand {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
 .taskTiger__brand div {
   flex: 1;
-  max-width: 150px;
-  min-width: 120px;
-  margin: 1rem;
 
+  margin: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.taskTiger__brand div img {
+  max-width: 200px;
+}
+.taskTiger__brand-title {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2vh;
+  margin-bottom: -4vh;
+  text-align: center;
+}
+.taskTiger__brand-title h2 {
+  justify-content: center;
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 34px;
+  line-height: 45px;
+  font-weight: 800;
+  font-family: var(--font-family);
+}
+
+@media screen and (max-width: 1250px) {
+  .taskTiger__brand div {
+    flex-direction: column;
+
+    display: flex;
+  }
+  .taskTiger__brand div img {
+    margin: 2vh;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .taskTiger__features-heading h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
 }

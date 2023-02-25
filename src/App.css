@@ -14,34 +14,39 @@ a {
   text-decoration: underline;
 }
 .gradient__bg {
+  /* ff 3.6+ */
   background: -moz-radial-gradient(
-    circle at 5% 25%,
-    rgba(0, 40, 83, 1) 0%,
-    rgba(4, 12, 24, 1) 100%
+    circle at 71% 42%,
+    rgba(42, 157, 143, 1) 0%,
+    rgba(38, 70, 83, 1) 100%
   );
 
+  /* safari 5.1+,chrome 10+ */
   background: -webkit-radial-gradient(
-    circle at 5% 25%,
-    rgba(0, 40, 83, 1) 0%,
-    rgba(4, 12, 24, 1) 100%
+    circle at 71% 42%,
+    rgba(42, 157, 143, 1) 0%,
+    rgba(38, 70, 83, 1) 100%
   );
 
+  /* opera 11.10+ */
   background: -o-radial-gradient(
-    circle at 5% 25%,
-    rgba(0, 40, 83, 1) 0%,
-    rgba(4, 12, 24, 1) 100%
+    circle at 71% 42%,
+    rgba(42, 157, 143, 1) 0%,
+    rgba(38, 70, 83, 1) 100%
   );
 
+  /* ie 10+ */
   background: -ms-radial-gradient(
-    circle at 5% 25%,
-    rgba(0, 40, 83, 1) 0%,
-    rgba(4, 12, 24, 1) 100%
+    circle at 71% 42%,
+    rgba(42, 157, 143, 1) 0%,
+    rgba(38, 70, 83, 1) 100%
   );
 
+  /* global 92%+ browsers support */
   background: radial-gradient(
-    circle at 5% 25%,
-    rgba(0, 40, 83, 1) 0%,
-    rgba(4, 12, 24, 1) 100%
+    circle at 71% 42%,
+    rgba(42, 157, 143, 1) 0%,
+    rgba(38, 70, 83, 1) 100%
   );
 }
 .gradient__text {
