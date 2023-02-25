@@ -1,5 +1,5 @@
 import React from "react";
-import ".CTA.css";
+import "./CTA.css";
 
 function Cta() {
   return <div>Cta</div>;
