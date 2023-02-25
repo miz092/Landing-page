@@ -52,7 +52,7 @@
 }
 
 @media screen and (max-width: 550px) {
-  .gpt3__features-heading h1 {
+  .taskTiger__features-heading h1 {
     font-size: 28px;
     line-height: 38px;
   }
