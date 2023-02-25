@@ -1,7 +1,7 @@
 .taskTiger__features {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-direction: row;
 }
 
@@ -25,7 +25,7 @@
 
 .taskTiger__features-heading p {
   color: var(--color-subtext);
-  font-size: 16px;
+  font-size: 18px;
   line-height: 30px;
   font-weight: 500;
   font-family: var(--font-family);
@@ -34,7 +34,7 @@
 }
 
 .taskTiger__features-container {
-  flex: 1.5;
+  flex: 0.8;
   display: flex;
   justify-content: flex-start;
   align-items: center;

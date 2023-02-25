@@ -4,7 +4,7 @@ import "./WhatIs.css";
 
 function WhatIs() {
   return (
-    <div className="taskTiger__whatis section__margin" id="wgpt3">
+    <div className="taskTiger__whatis section__margin" id="whatis">
       <div className="taskTiger__whatis-feature">
         <Feature
           title="What is TaskTiger?"
@@ -15,7 +15,6 @@ function WhatIs() {
         <h1 className="gradient__text">
           The possibilities are beyond your imagination
         </h1>
-        <p>Explore the Library</p>
       </div>
       <div className="taskTiger__whatis-container">
         <Feature
