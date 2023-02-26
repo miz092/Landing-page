@@ -1,8 +1,9 @@
 import React from "react";
 import "./Navbar.css";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
-import logo from "../../assets/Logo.png";
+
 import { useState } from "react";
+
 function Navbar() {
   const Menu = () => (
     <>
@@ -29,7 +30,7 @@ function Navbar() {
     <div className="taskTiger__navbar">
       <div className="taskTiger__navbar-links">
         <div className="taskTiger__navbar-links_logo">
-          <img src={logo} alt="logo" />
+          <img src={"/src/assets/Logo.png"} alt="logo" />
         </div>
         <div className="taskTiger__navbar-links_container">
           <Menu />
