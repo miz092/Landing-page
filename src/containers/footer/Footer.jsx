@@ -6,9 +6,7 @@ function Footer() {
   return (
     <div className="taskTiger__footer section__padding" id="contact">
       <div className="taskTiger__footer-heading">
-        <h1 className="gradient__text">
-          Do you want to step in to the future before others?
-        </h1>
+        <h1>Do you want to step in to the future before others?</h1>
       </div>
 
       <div className="taskTiger__footer-btn">
