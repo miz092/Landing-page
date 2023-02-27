@@ -33,7 +33,7 @@
 
 .taskTiger__features-container_feature-text {
   flex: 2;
-  max-width: 390px;
+  max-width: 500px;
   display: flex;
 }
 
@@ -47,16 +47,18 @@
 
 @media screen and (max-width: 550px) {
   .taskTiger__features-container__feature-title h1 {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 22px;
   }
 
   .taskTiger__features-container_feature-text p {
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 1rem;
   }
 
   .taskTiger__features-container__feature {
-    margin: 1rem 0;
+    margin: 1rem;
+    flex-direction: column;
   }
 }
