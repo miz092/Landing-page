@@ -24,9 +24,9 @@ function Footer() {
         </div>
         <div className="taskTiger__footer-links_div">
           <h4>Links</h4>
-          <p>Overons</p>
+          <p>Partners</p>
           <p>Social Media</p>
-          <p>Counters</p>
+          <p>Opportunities</p>
           <p>Contact</p>
         </div>
         <div className="taskTiger__footer-links_div">
