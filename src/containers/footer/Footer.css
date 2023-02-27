@@ -118,18 +118,23 @@
     font-size: 44px;
     line-height: 50px;
   }
+  .taskTiger__footer-btn {
+    margin-bottom: 1rem;
+  }
 }
 
 @media screen and (max-width: 550px) {
   .taskTiger__footer-heading h1 {
-    font-size: 34px;
-    line-height: 42px;
+    font-size: 27px;
+    line-height: 33px;
   }
 
   .taskTiger__footer-links div {
     margin: 1rem 0;
   }
-
+  .taskTiger__footer-btn {
+    margin-bottom: 1rem;
+  }
   .taskTiger__footer-btn p {
     font-size: 14px;
     line-height: 20px;
