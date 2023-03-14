@@ -30,7 +30,7 @@ function Navbar() {
     <div className="taskTiger__navbar">
       <div className="taskTiger__navbar-links">
         <div className="taskTiger__navbar-links_logo">
-          <img src={"/src/assets/Logo.png"} alt="logo" />
+          <img src={"./src/assets/Logo.png"} alt="logo" />
         </div>
         <div className="taskTiger__navbar-links_container">
           <Menu />
