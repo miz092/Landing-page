@@ -111,6 +111,7 @@
   font-family: var(--font-family);
   line-height: 15px;
   color: #fff;
+  position: relative;
 }
 
 @media screen and (max-width: 850px) {
