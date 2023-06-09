@@ -1,0 +1,40 @@
+.taskTiger__header-content__input {
+  width: 100%;
+  margin: 2rem 0 1rem;
+  display: flex;
+}
+.taskTiger__header-content__input input {
+  flex: 2;
+  width: 100%;
+  min-height: 50px;
+  font-family: var(--font-family);
+  background: var(--gradient-text);
+
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  border: 0px solid var(--color-footer);
+  padding: 0 1rem;
+  outline: none;
+}
+
+.taskTiger__header-content__input button {
+  flex: 0.6;
+  width: 100%;
+  min-height: 50px;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background: #e29578;
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.taskTiger__header-content__input button:hover {
+  background: #fff;
+}
